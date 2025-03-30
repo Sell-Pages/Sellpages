@@ -1,4 +1,3 @@
-// Funkcja animacji przejścia
 function animateTransition(link) {
     document.body.style.transition = "transform 0.5s ease-in-out, scale 0.5s ease-in-out";
     document.body.style.transform = "translateX(100%) scale(0.8)";
@@ -7,7 +6,6 @@ function animateTransition(link) {
     }, 500);
 }
 
-// Reset efektu po załadowaniu strony
 document.addEventListener("DOMContentLoaded", function () {
     document.body.style.transition = "transform 0.5s ease-in-out, scale 0.5s ease-in-out";
     document.body.style.transform = "translateX(0) scale(1)";
